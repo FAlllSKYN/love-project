@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Um momento nosso 💛</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+
+  <!-- POLAROIDS FIXAS -->
+  <div class="polaroid p1">
+    <img src="img/foto 1.jpeg">
+  </div>
+
+  <div class="polaroid p2">
+    <img src="img/foto 2.jpeg">
+  </div>
+
+  <div class="polaroid p3">
+    <img src="img/foto 3.jpeg">
+  </div>
+
+  <div class="polaroid p4">
+    <img src="img/foto 4.jpeg">
+  </div>
+
+  <!-- TELA 0 -->
+  <section class="tela ativa" id="tela-0">
+    <h1>💫 Existem momentos na vida</h1>
+    <p>Que não podem ser explicados...</p>
+    <button onclick="proximaTela()">Continuar</button>
+  </section>
+
+  <!-- TELA 1 -->
+  <section class="tela" id="tela-1">
+    <h1>E entre tantas pessoas…</h1>
+    <p>
+      foi com você que tudo ficou mais fácil,  
+      mais sincero, mais verdadeiro...
+    </p>
+    <button onclick="proximaTela()">Continuar</button>
+  </section>
+
+  <!-- TELA 2 -->
+  <section class="tela" id="tela-2">
+    <h1>A cada momento que passamos juntos</h1>
+    <p>
+      só reforça o que eu sinto...  
+      e espero que tu sinta o mesmo também...
+    </p>
+    <button onclick="proximaTela()">Continuar</button>
+  </section>
+
+  <!-- TELA 3 -->
+  <section class="tela" id="tela-3">
+    <h1>Quer viver essa aventura comigo?</h1>
+
+    <button onclick="irParaTela(4)">💖 Sim 😄</button>
+    <br><br>
+    <button class="nao" onclick="irParaTela(5)">😭 Não</button>
+  </section>
+
+  <!-- TELA 4 -->
+  <section class="tela" id="tela-4">
+    <h1>Então agora vamos curtir ❤️</h1>
+    <p>Isso aqui é só o começo.</p>
+  </section>
+
+  <!-- TELA 5 -->
+  <section class="tela" id="tela-5">
+    <h1>Não tem escolha sua canalinha, já era ❤️</h1>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
